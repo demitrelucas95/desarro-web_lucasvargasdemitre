@@ -1,10 +1,20 @@
-body{
-    margin: 0;
-    padding: 0;
-   
-    font-family: sans-serif;
+.header{
+    border: 03px solid;
+    background-image: linear-gradient(to left, grey, black );
 }
 
+body{
+   box-sizing: border-box;
+   margin:0px;
+   padding:0px;
+}
+*{
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+    color: azure;
+
+}
 li{
     display: inline-block;
     color: white;
